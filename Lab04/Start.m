@@ -27,8 +27,8 @@
 }
 
 -(void)initController{
-    maIntroTitles = [[NSMutableArray alloc] initWithObjects:@"Este verano",@"Conoce los Avengers",@"Directamente desde tu iPhone", nil];
-    maIntroImgs = [[NSMutableArray alloc] initWithObjects:@"summer.png",@"avengers.jpg",@"iphone.png", nil];
+    maIntroTitles = [[NSMutableArray alloc] initWithObjects:@"Bienvenido a Video Games Wiki",@"Descubre los mejores juegos",@"¡Y Juegalos en tu consola favorita!", nil];
+    maIntroImgs = [[NSMutableArray alloc] initWithObjects:@"Intro1.png",@"Intro2.png",@"Intro3.png", nil];
     
     [self createPageViews];
 }
@@ -45,7 +45,7 @@
     
     [_pageViewController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
     
-    _pageViewController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - 30);
+    _pageViewController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height+40);
     [self addChildViewController:_pageViewController];
     [self.view addSubview:_pageViewController.view];
     [_pageViewController didMoveToParentViewController:self];

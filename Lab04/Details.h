@@ -10,6 +10,14 @@
 
 @interface Details : UIViewController
 
+@property (strong,nonatomic) NSString *gName;
+@property (nonatomic) NSInteger consoles;
+
+@property (strong, nonatomic) IBOutlet UILabel *gameTitle;
+@property (strong, nonatomic) IBOutlet UIImageView *logo1;
+@property (strong, nonatomic) IBOutlet UIImageView *logo2;
+@property (strong, nonatomic) IBOutlet UIImageView *logo3;
+@property (strong, nonatomic) IBOutlet UIImageView *logo4;
 
 - (IBAction)back:(id)sender;
 

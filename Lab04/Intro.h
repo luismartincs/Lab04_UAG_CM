@@ -14,6 +14,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *lblIntro;
 @property (strong, nonatomic) IBOutlet UIImageView *imgIntro;
 @property (strong, nonatomic) IBOutlet UIButton *btnIntro;
+
 - (IBAction)goHome:(id)sender;
 
 @end

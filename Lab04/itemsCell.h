@@ -12,5 +12,6 @@
 @property (strong, nonatomic) IBOutlet UIImageView *detailsImage;
 @property (strong, nonatomic) IBOutlet UILabel *detailsTitle;
 @property (strong, nonatomic) IBOutlet UILabel *detailsSubtitle;
+@property (strong, nonatomic) IBOutlet UILabel *detailsDev;
 
 @end
