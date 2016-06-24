@@ -1,22 +1,22 @@
 //
-//  ViewController.m
+//  Details.m
 //  Lab04
 //
 //  Created by Luis de Jesus Martin Castillo on 23/06/16.
 //  Copyright © 2016 Luis de Jesus Martin Castillo. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Details.h"
 
-@interface ViewController ()
+@interface Details ()
 
 @end
 
-@implementation ViewController
+@implementation Details
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)back:(id)sender {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		A0461ECB1D1C9F4D00763BCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0461ECA1D1C9F4D00763BCE /* main.m */; };
 		A0461ECE1D1C9F4D00763BCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0461ECD1D1C9F4D00763BCE /* AppDelegate.m */; };
-		A0461ED11D1C9F4D00763BCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0461ED01D1C9F4D00763BCE /* ViewController.m */; };
+		A0461ED11D1C9F4D00763BCE /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = A0461ED01D1C9F4D00763BCE /* Start.m */; };
 		A0461ED41D1C9F4D00763BCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0461ED21D1C9F4D00763BCE /* Main.storyboard */; };
 		A0461ED71D1C9F4E00763BCE /* Lab04.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0461ED51D1C9F4D00763BCE /* Lab04.xcdatamodeld */; };
 		A0461ED91D1C9F4E00763BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0461ED81D1C9F4E00763BCE /* Assets.xcassets */; };
 		A0461EDC1D1C9F4E00763BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0461EDA1D1C9F4E00763BCE /* LaunchScreen.storyboard */; };
+		A0461EE71D1CA5F200763BCE /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = A0461EE61D1CA5F200763BCE /* Intro.m */; };
+		A0461EEA1D1CA67100763BCE /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = A0461EE91D1CA67100763BCE /* Declarations.m */; };
+		A0461EED1D1CAC0800763BCE /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = A0461EEC1D1CAC0800763BCE /* Home.m */; };
+		A0461EF21D1CADF700763BCE /* itemsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0461EF01D1CADF700763BCE /* itemsCell.m */; };
+		A0461EF31D1CADF700763BCE /* itemsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0461EF11D1CADF700763BCE /* itemsCell.xib */; };
+		A0461EF61D1CAF9B00763BCE /* Details.m in Sources */ = {isa = PBXBuildFile; fileRef = A0461EF51D1CAF9B00763BCE /* Details.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +27,24 @@
 		A0461ECA1D1C9F4D00763BCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0461ECC1D1C9F4D00763BCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0461ECD1D1C9F4D00763BCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A0461ECF1D1C9F4D00763BCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A0461ED01D1C9F4D00763BCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0461ECF1D1C9F4D00763BCE /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		A0461ED01D1C9F4D00763BCE /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		A0461ED31D1C9F4D00763BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0461ED61D1C9F4D00763BCE /* Lab04.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab04.xcdatamodel; sourceTree = "<group>"; };
 		A0461ED81D1C9F4E00763BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0461EDB1D1C9F4E00763BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0461EDD1D1C9F4E00763BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0461EE51D1CA5F200763BCE /* Intro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Intro.h; sourceTree = "<group>"; };
+		A0461EE61D1CA5F200763BCE /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
+		A0461EE81D1CA67100763BCE /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		A0461EE91D1CA67100763BCE /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		A0461EEB1D1CAC0800763BCE /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		A0461EEC1D1CAC0800763BCE /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		A0461EEF1D1CADF700763BCE /* itemsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itemsCell.h; sourceTree = "<group>"; };
+		A0461EF01D1CADF700763BCE /* itemsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = itemsCell.m; sourceTree = "<group>"; };
+		A0461EF11D1CADF700763BCE /* itemsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = itemsCell.xib; sourceTree = "<group>"; };
+		A0461EF41D1CAF9B00763BCE /* Details.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Details.h; sourceTree = "<group>"; };
+		A0461EF51D1CAF9B00763BCE /* Details.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Details.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +77,9 @@
 		A0461EC81D1C9F4D00763BCE /* Lab04 */ = {
 			isa = PBXGroup;
 			children = (
-				A0461ECC1D1C9F4D00763BCE /* AppDelegate.h */,
-				A0461ECD1D1C9F4D00763BCE /* AppDelegate.m */,
-				A0461ECF1D1C9F4D00763BCE /* ViewController.h */,
-				A0461ED01D1C9F4D00763BCE /* ViewController.m */,
+				A0461EEE1D1CADAD00763BCE /* Cell */,
+				A0461EE31D1CA44D00763BCE /* Main */,
+				A0461EE41D1CA45600763BCE /* Controllers */,
 				A0461ED21D1C9F4D00763BCE /* Main.storyboard */,
 				A0461ED81D1C9F4E00763BCE /* Assets.xcassets */,
 				A0461EDA1D1C9F4E00763BCE /* LaunchScreen.storyboard */,
@@ -80,6 +96,42 @@
 				A0461ECA1D1C9F4D00763BCE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0461EE31D1CA44D00763BCE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A0461ECC1D1C9F4D00763BCE /* AppDelegate.h */,
+				A0461ECD1D1C9F4D00763BCE /* AppDelegate.m */,
+				A0461EE81D1CA67100763BCE /* Declarations.h */,
+				A0461EE91D1CA67100763BCE /* Declarations.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		A0461EE41D1CA45600763BCE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0461ECF1D1C9F4D00763BCE /* Start.h */,
+				A0461ED01D1C9F4D00763BCE /* Start.m */,
+				A0461EE51D1CA5F200763BCE /* Intro.h */,
+				A0461EE61D1CA5F200763BCE /* Intro.m */,
+				A0461EEB1D1CAC0800763BCE /* Home.h */,
+				A0461EEC1D1CAC0800763BCE /* Home.m */,
+				A0461EF41D1CAF9B00763BCE /* Details.h */,
+				A0461EF51D1CAF9B00763BCE /* Details.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A0461EEE1D1CADAD00763BCE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A0461EEF1D1CADF700763BCE /* itemsCell.h */,
+				A0461EF01D1CADF700763BCE /* itemsCell.m */,
+				A0461EF11D1CADF700763BCE /* itemsCell.xib */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +165,7 @@
 				TargetAttributes = {
 					A0461EC51D1C9F4D00763BCE = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G4BTYN7N43;
 					};
 				};
 			};
@@ -139,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0461EF31D1CADF700763BCE /* itemsCell.xib in Resources */,
 				A0461EDC1D1C9F4E00763BCE /* LaunchScreen.storyboard in Resources */,
 				A0461ED91D1C9F4E00763BCE /* Assets.xcassets in Resources */,
 				A0461ED41D1C9F4D00763BCE /* Main.storyboard in Resources */,
@@ -152,8 +206,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0461ED11D1C9F4D00763BCE /* ViewController.m in Sources */,
+				A0461EF21D1CADF700763BCE /* itemsCell.m in Sources */,
+				A0461EE71D1CA5F200763BCE /* Intro.m in Sources */,
+				A0461ED11D1C9F4D00763BCE /* Start.m in Sources */,
+				A0461EEA1D1CA67100763BCE /* Declarations.m in Sources */,
 				A0461ED71D1C9F4E00763BCE /* Lab04.xcdatamodeld in Sources */,
+				A0461EF61D1CAF9B00763BCE /* Details.m in Sources */,
+				A0461EED1D1CAC0800763BCE /* Home.m in Sources */,
 				A0461ECE1D1C9F4D00763BCE /* AppDelegate.m in Sources */,
 				A0461ECB1D1C9F4D00763BCE /* main.m in Sources */,
 			);
@@ -267,10 +326,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Lab04/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ljmc.Lab04;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -278,10 +341,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Lab04/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ljmc.Lab04;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
