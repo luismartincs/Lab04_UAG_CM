@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface itemsCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UIImageView *detailsImage;
+@property (strong, nonatomic) IBOutlet UILabel *detailsTitle;
+@property (strong, nonatomic) IBOutlet UILabel *detailsSubtitle;
 
 @end

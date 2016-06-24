@@ -22,7 +22,7 @@
         <!--Page View Controller-->
         <scene sceneID="cLZ-pM-OOE">
             <objects>
-                <pageViewController storyboardIdentifier="PageIntroController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="jSC-ZW-2or" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="PageIntroController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="jSC-ZW-2or" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VK8-ZD-vjh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="468" y="322"/>
@@ -59,6 +59,8 @@
                     </view>
                     <connections>
                         <outlet property="btnIntro" destination="wus-tJ-1z8" id="VKg-B0-31F"/>
+                        <outlet property="imgIntro" destination="2qP-wg-IZg" id="1Uf-uD-s8h"/>
+                        <outlet property="lblIntro" destination="g99-0k-hTP" id="r9P-aE-3kM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0H3-vN-NSc" userLabel="First Responder" sceneMemberID="firstResponder"/>

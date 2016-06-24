@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface Details : UIViewController
+
+
 - (IBAction)back:(id)sender;
 
 @end
